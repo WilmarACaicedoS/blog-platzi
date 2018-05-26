@@ -2,5 +2,5 @@
 
 $intVar = 5;
 
-$stringVar = "Hello ".$intVar;
+$stringVar = "Hello $intVar";
 echo $stringVar;
