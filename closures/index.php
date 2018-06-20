@@ -22,7 +22,7 @@ $closure = function ($n) use ($x) {
 $x = 4;
 $result = array_map($closure, $numbers);
 
-var_dump($result); exit();
+//var_dump($result); exit();
 
 $x = 10;
 $y = 10;

@@ -21,7 +21,7 @@ class Truck extends VehicleBase {
         echo 'Truck ' . $this->type . ': moving<br>';
     }*/
 
-    public function getTotal() {
+    public static function getTotal() {
         return self::$count;
     }
 

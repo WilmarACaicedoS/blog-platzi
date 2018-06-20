@@ -30,7 +30,7 @@ $truck->move();
 //echo 'Owner truck: '. $truck->getOwner();
 
 echo '<br>Class truck 2<br>';
-$truck2 = new Truck('Max', 'Pickup');
+$truck2 = new Truck('Maxi', 'Pickup');
 $truck2->move();
 
 echo '<br>Total Trucks: '. Truck::getTotal() .'<br>';
