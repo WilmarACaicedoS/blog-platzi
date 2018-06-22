@@ -16,4 +16,9 @@ class IndexController extends BaseController {
         return $this->render('index.twig', ['blogPosts' => $blogPosts]);             
     }
 
+    public function getFull($id) {
+        $blogPosts = BlogPost::where('id', $id)->first();
+        return $this->render('full.twig', ['blogPost' => $blogPosts]);
+    }
+
 }
